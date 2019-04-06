@@ -1,5 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#Amplify
+amplify
+
+arc/aws-exports.js
+.amplifyrc
+.graphqlconfig.yml
+graphql.config.json
+graphql.schema.json
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +30,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
